@@ -4,3 +4,8 @@ title text,
 author_id integer,
 subgenre_id integer
 );
+
+create table subgenres (
+    id INTEGER primary key,
+    name text
+);

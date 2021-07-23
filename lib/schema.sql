@@ -21,3 +21,11 @@ create table books (
     year integer,
     series_id integer
 );
+
+create table characters (
+    id INTEGER primary key,
+    name text,
+    species text,
+    motto text,
+    author_id integer
+);

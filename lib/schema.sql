@@ -29,3 +29,9 @@ create table characters (
     motto text,
     author_id integer
 );
+
+create table character_books (
+    id INTEGER primary key,
+    book_id integer,
+    character_id integer
+);

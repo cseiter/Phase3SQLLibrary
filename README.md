@@ -67,3 +67,4 @@ with external data so don't expect it to reflect the data you added above.
 * [Seldom Blog](http://blog.seldomatt.com/blog/2012/10/17/about-sql-joins-the-3-ring-binder-model/) - [About SQL Joins: The 3 Ring Binder Model](http://blog.seldomatt.com/blog/2012/10/17/about-sql-joins-the-3-ring-binder-model/)
 * [Coding Horror](http://blog.codinghorror.com/) - [A Visual Explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
 * [Geeky is Awesome - SQL Joins Tutorial](https://geekyisawesome.blogspot.com/2011/03/sql-joins-tutorial.html)
+# Phase3SQLLibrary

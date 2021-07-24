@@ -18,7 +18,8 @@ end
 def select_series_title_with_most_human_characters
   #just putting this monster here to show how my select statements were evolving to get a return of all the data needed to make the correct result
   #select series.title,books.title,character_books.character_id,characters.name,characters.species from series join books on series.id = books.series_id join character_books on books.id = character_books.book_id join characters on character_books.character_id = characters.id;
-  "Write your SQL query here"
+  #select series.title,books.title,character_books.character_id,characters.name,characters.species,count(characters.species) from series join books on series.id = books.series_id join character_books on books.id = character_books.book_id join characters on character_books.character_id = characters.id where characters.species = 'human' group by series.title order by count(characters.species);
+  "select series.title from series join books on series.id = books.series_id join character_books on books.id = character_books.book_id join characters on character_books.character_id = characters.id where characters.species = 'human' group by series.title order by count(characters.species) desc limit 1";
 end
 
 def select_character_names_and_number_of_books_they_are_in

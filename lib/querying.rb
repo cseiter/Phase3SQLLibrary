@@ -8,11 +8,11 @@ end
 
 
 def select_value_and_count_of_most_prolific_species
-  "Write your SQL query here"
+  "select characters.species,count(characters.species) from characters group by characters.species order by count(characters.species) desc limit 1";
 end
 
 def select_name_and_series_subgenres_of_authors
-  "Write your SQL query here"
+  "select authors.name,subgenres.name from authors join series on series.author_id = authors.id join subgenres on series.subgenre_id = subgenres.id";
 end
 
 def select_series_title_with_most_human_characters
